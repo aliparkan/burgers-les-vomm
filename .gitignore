@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Simulation outputs and checkpoints
+outputs/
+*.npz
+*.npy
+*.h5
+*.hdf5
+*.ckpt
+
+# Generated figures outside tracked assets
+figures/
+
+# Logs
+*.log
