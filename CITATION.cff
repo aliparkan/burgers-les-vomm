@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software in academic work, please cite the repository."
+title: "Large-Eddy Simulation of the Forced Burgers Equation with Adjoint-Based SGS Modeling"
+type: software
+authors:
+  - given-names: Ali
+    family-names: Parkan
+    email: aliparkan@aut.ac.ir
+version: 1.0.0
+keywords:
+  - large-eddy simulation
+  - Burgers equation
+  - turbulence
+  - adjoint optimization
+  - dynamic Smagorinsky model
+  - scientific computing

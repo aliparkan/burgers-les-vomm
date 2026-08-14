@@ -1,0 +1,51 @@
+{
+  "ref": "outputs/reference/ref_window_t100_t101_les512.npz",
+  "output": "outputs/vomm/d2_ab2/stage1_bound035.json",
+  "disTy": 2,
+  "time_scheme": "ab2",
+  "visc": 1e-05,
+  "adm_order": 5,
+  "initial_c1": 0.0256,
+  "initial_c2": 0.1,
+  "maxiter": 12,
+  "cost_stride": 10,
+  "segments": [
+    [
+      0,
+      200
+    ],
+    [
+      2000,
+      200
+    ],
+    [
+      4000,
+      200
+    ],
+    [
+      6000,
+      200
+    ],
+    [
+      8000,
+      200
+    ]
+  ],
+  "bounds": [
+    [
+      0.0,
+      0.35
+    ],
+    [
+      -2.0,
+      2.0
+    ]
+  ],
+  "normalize_cost": true,
+  "normalization_eps": 1e-30,
+  "gradient_method": "discrete_adjoint",
+  "fd_step": 1e-05,
+  "gradient_check": true,
+  "gradient_check_tol": 0.0005,
+  "fallback_to_finite_difference": true
+}
